@@ -38,7 +38,8 @@ namespace WindowsFormsApplication1
             // chart1.ChartAreas[0].Area3DStyle.Enable3D = true;
             
             // initialise the audio first
-            string audiofilename = "C:\\Users\\tim\\downloads\\bass.wav"; //217 seconds but need a way to get song length
+            //string audiofilename = "C:\\Users\\tim\\downloads\\bass.wav"; //217 seconds but need a way to get song length
+            string audiofilename = System.IO.Path.GetDirectoryName(Environment.GetFolderPath(Environment.SpecialFolder.Personal));
             AV.openWav(audiofilename, out left, out right);
 
            
