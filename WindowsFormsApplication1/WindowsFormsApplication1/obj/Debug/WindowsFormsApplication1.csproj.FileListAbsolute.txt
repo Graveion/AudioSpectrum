@@ -16,3 +16,4 @@ C:\Users\Kai\Documents\tmp\AudioSpectrum\WindowsFormsApplication1\WindowsFormsAp
 C:\Users\Kai\Documents\tmp\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\Kai\Documents\tmp\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Kai\Documents\tmp\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Kai\Documents\tmp\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\bass.wav

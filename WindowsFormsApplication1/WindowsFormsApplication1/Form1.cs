@@ -13,8 +13,11 @@ using System.Windows.Threading;
 
 namespace WindowsFormsApplication1
 {
+
     public partial class Form1 : Form
     {
+        string audiofilename = Application.StartupPath;
+
         Audiovis AV = new Audiovis();
         DispatcherTimer dispatcherTimer;
         SoundPlayer wavPlayer;
@@ -39,7 +42,8 @@ namespace WindowsFormsApplication1
             
             // initialise the audio first
             //string audiofilename = "C:\\Users\\tim\\downloads\\bass.wav"; //217 seconds but need a way to get song length
-            string audiofilename = System.IO.Path.GetDirectoryName(Environment.GetFolderPath(Environment.SpecialFolder.Personal));
+            //string audiofilename = Application.StartupPath; //System.IO.Path.GetDirectoryName(Environment.GetFolderPath(Environment.SpecialFolder.Personal) + "\\Downloads\\bass.wav");
+            audiofilename += "\\bass.wav";
             AV.openWav(audiofilename, out left, out right);
 
            
@@ -84,7 +88,7 @@ namespace WindowsFormsApplication1
             dispatcherTimer.Interval = new TimeSpan(0, 0, 0, 0, milli); 
            
             wavPlayer = new SoundPlayer();
-            wavPlayer.SoundLocation = "C:\\Users\\tim\\downloads\\bass.wav";  
+            wavPlayer.SoundLocation = audiofilename;  
             wavPlayer.LoadCompleted += new AsyncCompletedEventHandler(wavPlayer_LoadCompleted);
 
             

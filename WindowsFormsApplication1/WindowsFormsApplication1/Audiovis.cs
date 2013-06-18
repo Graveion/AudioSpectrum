@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
@@ -53,7 +54,12 @@ namespace WindowsFormsApplication1
         // Returns left and right double arrays. 'right' will be null if sound is mono.
         public void openWav(string filename, out double[] left, out double[] right)
         {
-            byte[] wav = File.ReadAllBytes(filename);
+            byte[] wav = null;
+
+            if (File.Exists(filename))
+                wav = File.ReadAllBytes(filename);
+            else
+                MessageBox.Show("Error locating file", "Error", MessageBoxButtons.OK);
 
             // Determine if mono or stereo
             int channels = wav[22];     // Forget byte 23 as 99.999% of WAVs are 1 or 2 channels
