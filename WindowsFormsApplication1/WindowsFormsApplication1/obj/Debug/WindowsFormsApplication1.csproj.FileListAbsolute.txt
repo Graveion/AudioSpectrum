@@ -17,3 +17,13 @@ C:\Users\Kai\Documents\tmp\AudioSpectrum\WindowsFormsApplication1\WindowsFormsAp
 C:\Users\Kai\Documents\tmp\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Kai\Documents\tmp\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\Kai\Documents\tmp\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\bass.wav
+C:\Users\tim\Documents\GitHub\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\tim\Documents\GitHub\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\tim\Documents\GitHub\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\tim\Documents\GitHub\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\tim\Documents\GitHub\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\tim\Documents\GitHub\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\tim\Documents\GitHub\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\tim\Documents\GitHub\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\bass.wav
+C:\Users\tim\Documents\GitHub\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\tim\Documents\GitHub\AudioSpectrum\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb

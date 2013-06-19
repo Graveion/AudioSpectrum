@@ -33,7 +33,8 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            chart1.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            chart1.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            
             chart1.ChartAreas[0].AxisX.Minimum = 0;
             chart1.ChartAreas[0].AxisX.Maximum = 16000;
             chart1.ChartAreas[0].AxisY.Minimum = 0;
